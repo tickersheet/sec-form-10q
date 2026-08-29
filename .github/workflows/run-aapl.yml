@@ -18,3 +18,11 @@ jobs:
 
       - name: Run SEC script
         run: python scripts/get_aapl_10q.py
+
+      - name: Save AAPL data to repository
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/AAPL.csv
+          git commit -m "Update AAPL financial data" || echo "No changes to commit"
+          git push
