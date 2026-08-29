@@ -138,11 +138,16 @@ metrics = {
         ]
     },
 
-    "Short-Term Investments": {
+    "Current Marketable Securities": {
     "statement": "Balance Sheet",
     "tags": [
-        "MarketableSecuritiesCurrent",
-        "AvailableForSaleSecuritiesCurrent"
+        "MarketableSecuritiesCurrent"
+    ]
+},
+    "Noncurrent Marketable Securities": {
+    "statement": "Balance Sheet",
+    "tags": [
+        "MarketableSecuritiesNoncurrent"
     ]
 },
 
