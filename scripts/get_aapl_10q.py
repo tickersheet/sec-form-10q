@@ -22,23 +22,7 @@ with urllib.request.urlopen(request) as response:
 print(f"Company: {data['entityName']}")
 
 us_gaap = data["facts"]["us-gaap"]
-print("\n--- Investment-related concepts ---")
 
-for tag, concept in us_gaap.items():
-
-    label = concept.get("label") or ""
-
-    if any(word in tag.lower() for word in [
-        "investment",
-        "marketable",
-        "securities"
-    ]) or any(word in label.lower() for word in [
-        "investment",
-        "marketable",
-        "securities"
-    ]):
-
-        print(f"{tag} → {label}")
 # Financial metrics to extract
 # ---------------------------------------------------------
 # Financial metrics
