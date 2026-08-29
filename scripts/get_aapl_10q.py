@@ -24,32 +24,292 @@ print(f"Company: {data['entityName']}")
 us_gaap = data["facts"]["us-gaap"]
 
 # Financial metrics to extract
+# ---------------------------------------------------------
+# Financial metrics
+# ---------------------------------------------------------
+
 metrics = {
-    "RevenueFromContractWithCustomerExcludingAssessedTax": "Revenue",
-    "CostOfGoodsAndServicesSold": "Cost of Revenue",
-    "GrossProfit": "Gross Profit",
-    "ResearchAndDevelopmentExpense": "R&D",
-    "SellingGeneralAndAdministrativeExpense": "SG&A",
-    "OperatingIncomeLoss": "Operating Income",
-    "InterestExpenseNonOperating": "Interest Expense",
-    "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest": "Pre-Tax Income",
-    "IncomeTaxExpenseBenefit": "Income Tax",
-    "NetIncomeLoss": "Net Income",
-    "Assets": "Total Assets",
-    "Liabilities": "Total Liabilities",
-    "StockholdersEquity": "Stockholders Equity",
-    "CashAndCashEquivalentsAtCarryingValue": "Cash & Equivalents",
+
+    # =========================
+    # INCOME STATEMENT
+    # =========================
+
+    "Revenue": {
+        "statement": "Income Statement",
+        "tags": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "Revenues",
+            "SalesRevenueNet"
+        ]
+    },
+
+    "Cost of Revenue": {
+        "statement": "Income Statement",
+        "tags": [
+            "CostOfGoodsAndServicesSold",
+            "CostOfRevenue"
+        ]
+    },
+
+    "Gross Profit": {
+        "statement": "Income Statement",
+        "tags": [
+            "GrossProfit"
+        ]
+    },
+
+    "R&D": {
+        "statement": "Income Statement",
+        "tags": [
+            "ResearchAndDevelopmentExpense"
+        ]
+    },
+
+    "SG&A": {
+        "statement": "Income Statement",
+        "tags": [
+            "SellingGeneralAndAdministrativeExpense"
+        ]
+    },
+
+    "Operating Income": {
+        "statement": "Income Statement",
+        "tags": [
+            "OperatingIncomeLoss"
+        ]
+    },
+
+    "Interest Expense": {
+        "statement": "Income Statement",
+        "tags": [
+            "InterestExpenseNonOperating",
+            "InterestExpenseDebt"
+        ]
+    },
+
+    "Pre-Tax Income": {
+        "statement": "Income Statement",
+        "tags": [
+            "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+            "IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments"
+        ]
+    },
+
+    "Income Tax": {
+        "statement": "Income Statement",
+        "tags": [
+            "IncomeTaxExpenseBenefit"
+        ]
+    },
+
+    "Net Income": {
+        "statement": "Income Statement",
+        "tags": [
+            "NetIncomeLoss",
+            "ProfitLoss"
+        ]
+    },
+
+
+    # =========================
+    # BALANCE SHEET
+    # =========================
+
+    "Cash & Equivalents": {
+        "statement": "Balance Sheet",
+        "tags": [
+            "CashAndCashEquivalentsAtCarryingValue"
+        ]
+    },
+
+    "Short-Term Investments": {
+        "statement": "Balance Sheet",
+        "tags": [
+            "ShortTermInvestments"
+        ]
+    },
+
+    "Accounts Receivable": {
+        "statement": "Balance Sheet",
+        "tags": [
+            "AccountsReceivableNetCurrent"
+        ]
+    },
+
+    "Inventory": {
+        "statement": "Balance Sheet",
+        "tags": [
+            "InventoryNet"
+        ]
+    },
+
+    "Current Assets": {
+        "statement": "Balance Sheet",
+        "tags": [
+            "AssetsCurrent"
+        ]
+    },
+
+    "PP&E": {
+        "statement": "Balance Sheet",
+        "tags": [
+            "PropertyPlantAndEquipmentNet"
+        ]
+    },
+
+    "Goodwill": {
+        "statement": "Balance Sheet",
+        "tags": [
+            "Goodwill"
+        ]
+    },
+
+    "Intangible Assets": {
+        "statement": "Balance Sheet",
+        "tags": [
+            "FiniteLivedIntangibleAssetsNet",
+            "FiniteLivedIntangibleAssetsNetExcludingGoodwill"
+        ]
+    },
+
+    "Total Assets": {
+        "statement": "Balance Sheet",
+        "tags": [
+            "Assets"
+        ]
+    },
+
+    "Accounts Payable": {
+        "statement": "Balance Sheet",
+        "tags": [
+            "AccountsPayableCurrent"
+        ]
+    },
+
+    "Current Liabilities": {
+        "statement": "Balance Sheet",
+        "tags": [
+            "LiabilitiesCurrent"
+        ]
+    },
+
+    "Long-Term Debt": {
+        "statement": "Balance Sheet",
+        "tags": [
+            "LongTermDebtNoncurrent",
+            "LongTermDebtCurrent"
+        ]
+    },
+
+    "Total Liabilities": {
+        "statement": "Balance Sheet",
+        "tags": [
+            "Liabilities"
+        ]
+    },
+
+    "Stockholders Equity": {
+        "statement": "Balance Sheet",
+        "tags": [
+            "StockholdersEquity"
+        ]
+    },
+
+
+    # =========================
+    # CASH FLOW
+    # =========================
+
+    "Operating Cash Flow": {
+        "statement": "Cash Flow",
+        "tags": [
+            "NetCashProvidedByUsedInOperatingActivities"
+        ]
+    },
+
+    "Capital Expenditures": {
+        "statement": "Cash Flow",
+        "tags": [
+            "PaymentsToAcquirePropertyPlantAndEquipment",
+            "PaymentsToAcquireProductiveAssets"
+        ]
+    },
+
+    "Investing Cash Flow": {
+        "statement": "Cash Flow",
+        "tags": [
+            "NetCashProvidedByUsedInInvestingActivities"
+        ]
+    },
+
+    "Financing Cash Flow": {
+        "statement": "Cash Flow",
+        "tags": [
+            "NetCashProvidedByUsedInFinancingActivities"
+        ]
+    },
+
+
+    # =========================
+    # PER SHARE
+    # =========================
+
+    "Basic EPS": {
+        "statement": "Per Share",
+        "tags": [
+            "EarningsPerShareBasic"
+        ]
+    },
+
+    "Diluted EPS": {
+        "statement": "Per Share",
+        "tags": [
+            "EarningsPerShareDiluted"
+        ]
+    },
+
+    "Basic Shares": {
+        "statement": "Per Share",
+        "tags": [
+            "WeightedAverageNumberOfSharesOutstandingBasic"
+        ]
+    },
+
+    "Diluted Shares": {
+        "statement": "Per Share",
+        "tags": [
+            "WeightedAverageNumberOfDilutedSharesOutstanding"
+        ]
+    },
+
+    "Dividends": {
+        "statement": "Per Share",
+        "tags": [
+            "CommonStockDividendsPerShareDeclared"
+        ]
+    }
 }
 
 rows = []
 
-for tag, metric_name in metrics.items():
+for metric_name, metric_info in metrics.items():
 
-    if tag not in us_gaap:
-        print(f"Not found: {tag}")
+    statement = metric_info["statement"]
+
+    # Find the first available XBRL tag
+    selected_tag = None
+
+    for tag in metric_info["tags"]:
+
+        if tag in us_gaap:
+            selected_tag = tag
+            break
+
+    if selected_tag is None:
+        print(f"Not found: {metric_name}")
         continue
 
-    concept = us_gaap[tag]
+    concept = us_gaap[selected_tag]
     units = concept.get("units", {})
 
     for unit, values in units.items():
@@ -70,7 +330,7 @@ for tag, metric_name in metrics.items():
             frame = item.get("frame", "")
             value = item.get("val")
 
-            # Determine whether this is an instant or duration fact
+            # Determine period type
             if not start or not end:
 
                 period_type = "Instant"
@@ -93,6 +353,9 @@ for tag, metric_name in metrics.items():
 
             rows.append([
                 TICKER,
+                statement,
+                metric_name,
+                selected_tag,
                 fy,
                 fp,
                 period_type,
@@ -100,14 +363,11 @@ for tag, metric_name in metrics.items():
                 end or "",
                 filed,
                 form,
-                metric_name,
-                tag,
                 value,
                 unit,
                 accession,
                 frame
             ])
-
 
 # ---------------------------------------------------------
 # Remove exact duplicate rows
@@ -154,21 +414,22 @@ with open(output_file, "w", newline="", encoding="utf-8") as f:
     writer = csv.writer(f)
 
     writer.writerow([
-        "Ticker",
-        "Filing Fiscal Year",
-        "Filing Fiscal Period",
-        "Period Type",
-        "Start Date",
-        "End Date",
-        "Filing Date",
-        "Form",
-        "Metric",
-        "XBRL Tag",
-        "Value",
-        "Unit",
-        "Accession",
-        "Frame"
-    ])
+    "Ticker",
+    "Statement",
+    "Metric",
+    "XBRL Tag",
+    "Filing Fiscal Year",
+    "Filing Fiscal Period",
+    "Period Type",
+    "Start Date",
+    "End Date",
+    "Filing Date",
+    "Form",
+    "Value",
+    "Unit",
+    "Accession",
+    "Frame"
+])
 
     writer.writerows(rows)
 
