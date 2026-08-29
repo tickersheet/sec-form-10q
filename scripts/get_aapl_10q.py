@@ -27,16 +27,19 @@ print("\n--- Revenue-related concepts ---")
 
 for tag, concept in us_gaap.items():
 
+    label = concept.get("label") or ""
+    description = concept.get("description") or ""
+
     text = (
         tag
         + " "
-        + concept.get("label", "")
+        + label
         + " "
-        + concept.get("description", "")
+        + description
     ).lower()
 
     if "revenue" in text:
 
         print(
-            f"{tag} → {concept.get('label', '')}"
+            f"{tag} → {label}"
         )
