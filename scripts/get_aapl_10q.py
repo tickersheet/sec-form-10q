@@ -9,7 +9,7 @@ URL = f"https://data.sec.gov/api/xbrl/companyfacts/CIK{CIK}.json"
 request = urllib.request.Request(
     URL,
     headers={
-        "User-Agent": "TickerSheet sec-financial-data YOUR_EMAIL@gmail.com"
+        "User-Agent": "TickerSheet sec-financial-data tickersheet@gmail.com"
     }
 )
 
