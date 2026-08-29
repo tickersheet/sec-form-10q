@@ -139,11 +139,12 @@ metrics = {
     },
 
     "Short-Term Investments": {
-        "statement": "Balance Sheet",
-        "tags": [
-            "ShortTermInvestments"
-        ]
-    },
+    "statement": "Balance Sheet",
+    "tags": [
+        "MarketableSecuritiesCurrent",
+        "AvailableForSaleSecuritiesCurrent"
+    ]
+},
 
     "Accounts Receivable": {
         "statement": "Balance Sheet",
