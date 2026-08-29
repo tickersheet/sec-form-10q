@@ -43,3 +43,17 @@ for tag, concept in us_gaap.items():
         print(
             f"{tag} → {label}"
         )
+
+        if tag == "RevenueFromContractWithCustomerExcludingAssessedTax":
+
+            print("\n--- Recent Revenue Data ---")
+
+            units = concept.get("units", {})
+
+            for unit, values in units.items():
+
+                print(f"\nUnit: {unit}")
+
+                for item in values[-20:]:
+
+                    print(item)
