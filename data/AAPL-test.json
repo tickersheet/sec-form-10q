@@ -1,0 +1,8 @@
+{
+  "ticker": "AAPL",
+  "company": "Apple Inc.",
+  "form": "10-Q",
+  "period": "2026-Q2",
+  "revenue": 100000000000,
+  "net_income": 25000000000
+}
