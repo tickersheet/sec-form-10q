@@ -22,9 +22,7 @@ print(f"Company: {data['entityName']}")
 
 us_gaap = data["facts"]["us-gaap"]
 
-rows = []
-
-# Concepts we want to start with
+# Metrics we want
 metrics = {
     "RevenueFromContractWithCustomerExcludingAssessedTax": "Revenue",
     "CostOfGoodsAndServicesSold": "Cost of Revenue",
@@ -36,6 +34,8 @@ metrics = {
     "StockholdersEquity": "Stockholders Equity",
     "CashAndCashEquivalentsAtCarryingValue": "Cash & Equivalents",
 }
+
+rows = []
 
 for tag, metric_name in metrics.items():
 
@@ -50,19 +50,51 @@ for tag, metric_name in metrics.items():
 
         for item in values:
 
-            # Only use 10-Q and 10-K filings
-            if item.get("form") not in ["10-Q", "10-K"]:
+            form = item.get("form")
+
+            if form not in ["10-Q", "10-K"]:
                 continue
 
-            # We only want Apple's current filing
+            fy = item.get("fy")
+            fp = item.get("fp")
+            start = item.get("start")
+            end = item.get("end")
+            filed = item.get("filed")
+
+            # Determine period type
+            period_type = ""
+
+            if start and end:
+
+                from datetime import date
+
+                start_date = date.fromisoformat(start)
+                end_date = date.fromisoformat(end)
+
+                days = (end_date - start_date).days
+
+                if days <= 110:
+                    period_type = "Quarter"
+
+                elif days <= 200:
+                    period_type = "YTD"
+
+                elif days <= 400:
+                    period_type = "Annual"
+
+            else:
+                # Balance sheet facts have no start date
+                period_type = "Instant"
+
             rows.append([
                 TICKER,
-                item.get("fy"),
-                item.get("fp"),
-                item.get("start", ""),
-                item.get("end", ""),
-                item.get("filed"),
-                item.get("form"),
+                fy,
+                fp,
+                period_type,
+                start or "",
+                end or "",
+                filed,
+                form,
                 metric_name,
                 item.get("val"),
                 unit,
@@ -70,7 +102,8 @@ for tag, metric_name in metrics.items():
                 item.get("frame", "")
             ])
 
-# Create data directory
+
+# Create data folder
 os.makedirs("data", exist_ok=True)
 
 output_file = "data/AAPL.csv"
@@ -83,6 +116,7 @@ with open(output_file, "w", newline="", encoding="utf-8") as f:
         "Ticker",
         "Fiscal Year",
         "Fiscal Period",
+        "Period Type",
         "Start Date",
         "End Date",
         "Filing Date",
