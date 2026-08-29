@@ -765,6 +765,68 @@ AAPL,Balance Sheet,Current Liabilities,LiabilitiesCurrent,2025,Q3,Instant,,2024-
 AAPL,Balance Sheet,Current Liabilities,LiabilitiesCurrent,2025,Q3,Instant,,2025-06-28,2025-08-01,10-Q,141120000000,USD,0000320193-25-000073,CY2025Q2I
 AAPL,Balance Sheet,Current Liabilities,LiabilitiesCurrent,2026,Q3,Instant,,2025-09-27,2026-07-31,10-Q,165631000000,USD,0000320193-26-000020,CY2025Q3I
 AAPL,Balance Sheet,Current Liabilities,LiabilitiesCurrent,2026,Q3,Instant,,2026-06-27,2026-07-31,10-Q,149326000000,USD,0000320193-26-000020,CY2026Q2I
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2019,FY,Instant,,2018-09-29,2019-10-31,10-K,40388000000,USD,0000320193-19-000119,CY2018Q3I
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2019,FY,Instant,,2019-09-28,2019-10-31,10-K,51713000000,USD,0000320193-19-000119,
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2020,FY,Instant,,2019-09-28,2020-10-30,10-K,51713000000,USD,0000320193-20-000096,CY2019Q3I
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2020,FY,Instant,,2020-09-26,2020-10-30,10-K,52927000000,USD,0000320193-20-000096,
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2021,FY,Instant,,2020-09-26,2021-10-29,10-K,52927000000,USD,0000320193-21-000105,CY2020Q3I
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2021,FY,Instant,,2021-09-25,2021-10-29,10-K,27699000000,USD,0000320193-21-000105,
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2022,FY,Instant,,2021-09-25,2022-10-28,10-K,27699000000,USD,0000320193-22-000108,CY2021Q3I
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2022,FY,Instant,,2022-09-24,2022-10-28,10-K,24658000000,USD,0000320193-22-000108,
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2023,FY,Instant,,2022-09-24,2023-11-03,10-K,24658000000,USD,0000320193-23-000106,CY2022Q3I
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2023,FY,Instant,,2023-09-30,2023-11-03,10-K,31590000000,USD,0000320193-23-000106,
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2024,FY,Instant,,2023-09-30,2024-11-01,10-K,31590000000,USD,0000320193-24-000123,CY2023Q3I
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2024,FY,Instant,,2024-09-28,2024-11-01,10-K,35228000000,USD,0000320193-24-000123,
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2025,FY,Instant,,2024-09-28,2025-10-31,10-K,35228000000,USD,0000320193-25-000079,CY2024Q3I
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2025,FY,Instant,,2025-09-27,2025-10-31,10-K,18763000000,USD,0000320193-25-000079,
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2019,Q1,Instant,,2018-09-29,2019-01-30,10-Q,40388000000,USD,0000320193-19-000010,
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2019,Q1,Instant,,2018-12-29,2019-01-30,10-Q,41656000000,USD,0000320193-19-000010,CY2018Q4I
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2020,Q1,Instant,,2019-09-28,2020-01-29,10-Q,51713000000,USD,0000320193-20-000010,
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2020,Q1,Instant,,2019-12-28,2020-01-29,10-Q,67391000000,USD,0000320193-20-000010,CY2019Q4I
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2021,Q1,Instant,,2020-09-26,2021-01-28,10-Q,52927000000,USD,0000320193-21-000010,
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2021,Q1,Instant,,2020-12-26,2021-01-28,10-Q,40816000000,USD,0000320193-21-000010,CY2020Q4I
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2022,Q1,Instant,,2021-09-25,2022-01-28,10-Q,27699000000,USD,0000320193-22-000007,
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2022,Q1,Instant,,2021-12-25,2022-01-28,10-Q,26794000000,USD,0000320193-22-000007,CY2021Q4I
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2023,Q1,Instant,,2022-09-24,2023-02-03,10-Q,24658000000,USD,0000320193-23-000006,
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2023,Q1,Instant,,2022-12-31,2023-02-03,10-Q,30820000000,USD,0000320193-23-000006,CY2022Q4I
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2024,Q1,Instant,,2023-09-30,2024-02-02,10-Q,31590000000,USD,0000320193-24-000006,
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2024,Q1,Instant,,2023-12-30,2024-02-02,10-Q,32340000000,USD,0000320193-24-000006,CY2023Q4I
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2025,Q1,Instant,,2024-09-28,2025-01-31,10-Q,35228000000,USD,0000320193-25-000008,
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2025,Q1,Instant,,2024-12-28,2025-01-31,10-Q,23476000000,USD,0000320193-25-000008,CY2024Q4I
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2026,Q1,Instant,,2025-09-27,2026-01-30,10-Q,18763000000,USD,0000320193-26-000006,
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2026,Q1,Instant,,2025-12-27,2026-01-30,10-Q,21590000000,USD,0000320193-26-000006,CY2025Q4I
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2019,Q2,Instant,,2018-09-29,2019-05-01,10-Q,40388000000,USD,0000320193-19-000066,
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2019,Q2,Instant,,2019-03-30,2019-05-01,10-Q,42104000000,USD,0000320193-19-000066,CY2019Q1I
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2020,Q2,Instant,,2019-09-28,2020-05-01,10-Q,51713000000,USD,0000320193-20-000052,
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2020,Q2,Instant,,2020-03-28,2020-05-01,10-Q,53877000000,USD,0000320193-20-000052,CY2020Q1I
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2021,Q2,Instant,,2020-09-26,2021-04-29,10-Q,52927000000,USD,0000320193-21-000056,
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2021,Q2,Instant,,2021-03-27,2021-04-29,10-Q,31368000000,USD,0000320193-21-000056,CY2021Q1I
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2022,Q2,Instant,,2021-09-25,2022-04-29,10-Q,27699000000,USD,0000320193-22-000059,
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2022,Q2,Instant,,2022-03-26,2022-04-29,10-Q,23413000000,USD,0000320193-22-000059,CY2022Q1I
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2023,Q2,Instant,,2022-09-24,2023-05-05,10-Q,24658000000,USD,0000320193-23-000064,
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2023,Q2,Instant,,2023-04-01,2023-05-05,10-Q,31185000000,USD,0000320193-23-000064,CY2023Q1I
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2024,Q2,Instant,,2023-09-30,2024-05-03,10-Q,31590000000,USD,0000320193-24-000069,
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2024,Q2,Instant,,2024-03-30,2024-05-03,10-Q,34455000000,USD,0000320193-24-000069,CY2024Q1I
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2025,Q2,Instant,,2024-09-28,2025-05-02,10-Q,35228000000,USD,0000320193-25-000057,
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2025,Q2,Instant,,2025-03-29,2025-05-02,10-Q,20336000000,USD,0000320193-25-000057,CY2025Q1I
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2026,Q2,Instant,,2025-09-27,2026-05-01,10-Q,18763000000,USD,0000320193-26-000013,
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2026,Q2,Instant,,2026-03-28,2026-05-01,10-Q,22935000000,USD,0000320193-26-000013,CY2026Q1I
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2019,Q3,Instant,,2018-09-29,2019-07-31,10-Q,40388000000,USD,0000320193-19-000076,
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2019,Q3,Instant,,2019-06-29,2019-07-31,10-Q,44084000000,USD,0000320193-19-000076,CY2019Q2I
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2020,Q3,Instant,,2019-09-28,2020-07-31,10-Q,51713000000,USD,0000320193-20-000062,
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2020,Q3,Instant,,2020-06-27,2020-07-31,10-Q,59642000000,USD,0000320193-20-000062,CY2020Q2I
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2021,Q3,Instant,,2020-09-26,2021-07-28,10-Q,52927000000,USD,0000320193-21-000065,
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2021,Q3,Instant,,2021-06-26,2021-07-28,10-Q,27646000000,USD,0000320193-21-000065,CY2021Q2I
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2022,Q3,Instant,,2021-09-25,2022-07-29,10-Q,27699000000,USD,0000320193-22-000070,
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2022,Q3,Instant,,2022-06-25,2022-07-29,10-Q,20729000000,USD,0000320193-22-000070,CY2022Q2I
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2023,Q3,Instant,,2022-09-24,2023-08-04,10-Q,24658000000,USD,0000320193-23-000077,
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2023,Q3,Instant,,2023-07-01,2023-08-04,10-Q,34074000000,USD,0000320193-23-000077,CY2023Q2I
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2024,Q3,Instant,,2023-09-30,2024-08-02,10-Q,31590000000,USD,0000320193-24-000081,
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2024,Q3,Instant,,2024-06-29,2024-08-02,10-Q,36236000000,USD,0000320193-24-000081,CY2024Q2I
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2025,Q3,Instant,,2024-09-28,2025-08-01,10-Q,35228000000,USD,0000320193-25-000073,
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2025,Q3,Instant,,2025-06-28,2025-08-01,10-Q,19103000000,USD,0000320193-25-000073,CY2025Q2I
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2026,Q3,Instant,,2025-09-27,2026-07-31,10-Q,18763000000,USD,0000320193-26-000020,CY2025Q3I
+AAPL,Balance Sheet,Current Marketable Securities,MarketableSecuritiesCurrent,2026,Q3,Instant,,2026-06-27,2026-07-31,10-Q,22855000000,USD,0000320193-26-000020,CY2026Q2I
 AAPL,Balance Sheet,Goodwill,Goodwill,2009,FY,Instant,,2008-09-27,2009-10-27,10-K,207000000,USD,0001193125-09-214859,
 AAPL,Balance Sheet,Goodwill,Goodwill,2009,FY,Instant,,2009-09-26,2009-10-27,10-K,206000000,USD,0001193125-09-214859,
 AAPL,Balance Sheet,Goodwill,Goodwill,2010,FY,Instant,,2009-09-26,2010-10-27,10-K,206000000,USD,0001193125-10-238044,CY2009Q3I
@@ -1097,6 +1159,68 @@ AAPL,Balance Sheet,Long-Term Debt,LongTermDebtNoncurrent,2025,Q3,Instant,,2024-0
 AAPL,Balance Sheet,Long-Term Debt,LongTermDebtNoncurrent,2025,Q3,Instant,,2025-06-28,2025-08-01,10-Q,82430000000,USD,0000320193-25-000073,CY2025Q2I
 AAPL,Balance Sheet,Long-Term Debt,LongTermDebtNoncurrent,2026,Q3,Instant,,2025-09-27,2026-07-31,10-Q,78328000000,USD,0000320193-26-000020,CY2025Q3I
 AAPL,Balance Sheet,Long-Term Debt,LongTermDebtNoncurrent,2026,Q3,Instant,,2026-06-27,2026-07-31,10-Q,71340000000,USD,0000320193-26-000020,CY2026Q2I
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2019,FY,Instant,,2018-09-29,2019-10-31,10-K,170799000000,USD,0000320193-19-000119,CY2018Q3I
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2019,FY,Instant,,2019-09-28,2019-10-31,10-K,105341000000,USD,0000320193-19-000119,
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2020,FY,Instant,,2019-09-28,2020-10-30,10-K,105341000000,USD,0000320193-20-000096,CY2019Q3I
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2020,FY,Instant,,2020-09-26,2020-10-30,10-K,100887000000,USD,0000320193-20-000096,
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2021,FY,Instant,,2020-09-26,2021-10-29,10-K,100887000000,USD,0000320193-21-000105,CY2020Q3I
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2021,FY,Instant,,2021-09-25,2021-10-29,10-K,127877000000,USD,0000320193-21-000105,
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2022,FY,Instant,,2021-09-25,2022-10-28,10-K,127877000000,USD,0000320193-22-000108,CY2021Q3I
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2022,FY,Instant,,2022-09-24,2022-10-28,10-K,120805000000,USD,0000320193-22-000108,
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2023,FY,Instant,,2022-09-24,2023-11-03,10-K,120805000000,USD,0000320193-23-000106,CY2022Q3I
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2023,FY,Instant,,2023-09-30,2023-11-03,10-K,100544000000,USD,0000320193-23-000106,
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2024,FY,Instant,,2023-09-30,2024-11-01,10-K,100544000000,USD,0000320193-24-000123,CY2023Q3I
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2024,FY,Instant,,2024-09-28,2024-11-01,10-K,91479000000,USD,0000320193-24-000123,
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2025,FY,Instant,,2024-09-28,2025-10-31,10-K,91479000000,USD,0000320193-25-000079,CY2024Q3I
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2025,FY,Instant,,2025-09-27,2025-10-31,10-K,77723000000,USD,0000320193-25-000079,
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2019,Q1,Instant,,2018-09-29,2019-01-30,10-Q,170799000000,USD,0000320193-19-000010,
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2019,Q1,Instant,,2018-12-29,2019-01-30,10-Q,158608000000,USD,0000320193-19-000010,CY2018Q4I
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2020,Q1,Instant,,2019-09-28,2020-01-29,10-Q,105341000000,USD,0000320193-20-000010,
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2020,Q1,Instant,,2019-12-28,2020-01-29,10-Q,99899000000,USD,0000320193-20-000010,CY2019Q4I
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2021,Q1,Instant,,2020-09-26,2021-01-28,10-Q,100887000000,USD,0000320193-21-000010,
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2021,Q1,Instant,,2020-12-26,2021-01-28,10-Q,118745000000,USD,0000320193-21-000010,CY2020Q4I
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2022,Q1,Instant,,2021-09-25,2022-01-28,10-Q,127877000000,USD,0000320193-22-000007,
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2022,Q1,Instant,,2021-12-25,2022-01-28,10-Q,138683000000,USD,0000320193-22-000007,CY2021Q4I
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2023,Q1,Instant,,2022-09-24,2023-02-03,10-Q,120805000000,USD,0000320193-23-000006,
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2023,Q1,Instant,,2022-12-31,2023-02-03,10-Q,114095000000,USD,0000320193-23-000006,CY2022Q4I
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2024,Q1,Instant,,2023-09-30,2024-02-02,10-Q,100544000000,USD,0000320193-24-000006,
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2024,Q1,Instant,,2023-12-30,2024-02-02,10-Q,99475000000,USD,0000320193-24-000006,CY2023Q4I
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2025,Q1,Instant,,2024-09-28,2025-01-31,10-Q,91479000000,USD,0000320193-25-000008,
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2025,Q1,Instant,,2024-12-28,2025-01-31,10-Q,87593000000,USD,0000320193-25-000008,CY2024Q4I
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2026,Q1,Instant,,2025-09-27,2026-01-30,10-Q,77723000000,USD,0000320193-26-000006,
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2026,Q1,Instant,,2025-12-27,2026-01-30,10-Q,77888000000,USD,0000320193-26-000006,CY2025Q4I
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2019,Q2,Instant,,2018-09-29,2019-05-01,10-Q,170799000000,USD,0000320193-19-000066,
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2019,Q2,Instant,,2019-03-30,2019-05-01,10-Q,145319000000,USD,0000320193-19-000066,CY2019Q1I
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2020,Q2,Instant,,2019-09-28,2020-05-01,10-Q,105341000000,USD,0000320193-20-000052,
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2020,Q2,Instant,,2020-03-28,2020-05-01,10-Q,98793000000,USD,0000320193-20-000052,CY2020Q1I
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2021,Q2,Instant,,2020-09-26,2021-04-29,10-Q,100887000000,USD,0000320193-21-000056,
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2021,Q2,Instant,,2021-03-27,2021-04-29,10-Q,134539000000,USD,0000320193-21-000056,CY2021Q1I
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2022,Q2,Instant,,2021-09-25,2022-04-29,10-Q,127877000000,USD,0000320193-22-000059,
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2022,Q2,Instant,,2022-03-26,2022-04-29,10-Q,141219000000,USD,0000320193-22-000059,CY2022Q1I
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2023,Q2,Instant,,2022-09-24,2023-05-05,10-Q,120805000000,USD,0000320193-23-000064,
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2023,Q2,Instant,,2023-04-01,2023-05-05,10-Q,110461000000,USD,0000320193-23-000064,CY2023Q1I
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2024,Q2,Instant,,2023-09-30,2024-05-03,10-Q,100544000000,USD,0000320193-24-000069,
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2024,Q2,Instant,,2024-03-30,2024-05-03,10-Q,95187000000,USD,0000320193-24-000069,CY2024Q1I
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2025,Q2,Instant,,2024-09-28,2025-05-02,10-Q,91479000000,USD,0000320193-25-000057,
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2025,Q2,Instant,,2025-03-29,2025-05-02,10-Q,84424000000,USD,0000320193-25-000057,CY2025Q1I
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2026,Q2,Instant,,2025-09-27,2026-05-01,10-Q,77723000000,USD,0000320193-26-000013,
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2026,Q2,Instant,,2026-03-28,2026-05-01,10-Q,78088000000,USD,0000320193-26-000013,CY2026Q1I
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2019,Q3,Instant,,2018-09-29,2019-07-31,10-Q,170799000000,USD,0000320193-19-000076,
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2019,Q3,Instant,,2019-06-29,2019-07-31,10-Q,115996000000,USD,0000320193-19-000076,CY2019Q2I
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2020,Q3,Instant,,2019-09-28,2020-07-31,10-Q,105341000000,USD,0000320193-20-000062,
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2020,Q3,Instant,,2020-06-27,2020-07-31,10-Q,100592000000,USD,0000320193-20-000062,CY2020Q2I
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2021,Q3,Instant,,2020-09-26,2021-07-28,10-Q,100887000000,USD,0000320193-21-000065,
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2021,Q3,Instant,,2021-06-26,2021-07-28,10-Q,131948000000,USD,0000320193-21-000065,CY2021Q2I
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2022,Q3,Instant,,2021-09-25,2022-07-29,10-Q,127877000000,USD,0000320193-22-000070,
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2022,Q3,Instant,,2022-06-25,2022-07-29,10-Q,131077000000,USD,0000320193-22-000070,CY2022Q2I
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2023,Q3,Instant,,2022-09-24,2023-08-04,10-Q,120805000000,USD,0000320193-23-000077,
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2023,Q3,Instant,,2023-07-01,2023-08-04,10-Q,104061000000,USD,0000320193-23-000077,CY2023Q2I
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2024,Q3,Instant,,2023-09-30,2024-08-02,10-Q,100544000000,USD,0000320193-24-000081,
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2024,Q3,Instant,,2024-06-29,2024-08-02,10-Q,91240000000,USD,0000320193-24-000081,CY2024Q2I
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2025,Q3,Instant,,2024-09-28,2025-08-01,10-Q,91479000000,USD,0000320193-25-000073,
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2025,Q3,Instant,,2025-06-28,2025-08-01,10-Q,77614000000,USD,0000320193-25-000073,CY2025Q2I
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2026,Q3,Instant,,2025-09-27,2026-07-31,10-Q,77723000000,USD,0000320193-26-000020,CY2025Q3I
+AAPL,Balance Sheet,Noncurrent Marketable Securities,MarketableSecuritiesNoncurrent,2026,Q3,Instant,,2026-06-27,2026-07-31,10-Q,84118000000,USD,0000320193-26-000020,CY2026Q2I
 AAPL,Balance Sheet,PP&E,PropertyPlantAndEquipmentNet,2012,FY,Instant,,2011-09-24,2012-10-31,10-K,7777000000,USD,0001193125-12-444068,
 AAPL,Balance Sheet,PP&E,PropertyPlantAndEquipmentNet,2012,FY,Instant,,2012-09-29,2012-10-31,10-K,15452000000,USD,0001193125-12-444068,
 AAPL,Balance Sheet,PP&E,PropertyPlantAndEquipmentNet,2013,FY,Instant,,2012-09-29,2013-10-30,10-K,15452000000,USD,0001193125-13-416534,CY2012Q3I
